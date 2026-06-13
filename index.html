@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paras Khobragade — DevOps Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Aurora blobs -->
+<div class="aurora aurora-1"></div>
+<div class="aurora aurora-2"></div>
+<div class="aurora aurora-3"></div>
+
+<!-- Particle canvas -->
+<canvas id="canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo"><span>~/</span>paras-k</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="about">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-eyebrow">Available for DevOps Roles</div>
+        <h1 class="hero-name">
+          <span class="first">Paras</span>
+          <span class="last">Khobragade</span>
+        </h1>
+        <div class="hero-role">
+          <span id="typewriter"></span>
+          <span class="cursor"></span>
+        </div>
+        <p class="hero-desc">
+          Software Engineer at Amdocs transitioning into DevOps. I build automated pipelines, wrangle cloud infrastructure, and turn manual processes into push-button deployments.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="terminal fade-up">
+        <div class="terminal-bar">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <div class="terminal-title">paras@devops ~ zsh</div>
+        </div>
+        <div class="terminal-body">
+          <div class="t-line"><span class="t-prompt">❯ </span><span class="t-cmd">whoami --verbose</span></div>
+          <div class="t-line t-out"><span class="t-key">name:</span>       <span class="t-val">Paras Khobragade</span></div>
+          <div class="t-line t-out"><span class="t-key">location:</span>  <span class="t-val">Pune, Maharashtra 🇮🇳</span></div>
+          <div class="t-line t-out"><span class="t-key">role:</span>       <span class="t-val">DevOps Engineer (transitioning)</span></div>
+          <div class="t-line t-out"><span class="t-key">exp:</span>        <span class="t-val">2+ years @ Amdocs</span></div>
+          <br/>
+          <div class="t-line"><span class="t-prompt">❯ </span><span class="t-cmd">cat tech-stack.yaml</span></div>
+          <div class="t-line t-out"><span class="t-key">cloud:</span>     <span class="t-val">[ AWS EC2, S3, IAM ]</span></div>
+          <div class="t-line t-out"><span class="t-key">ci_cd:</span>     <span class="t-val">[ Jenkins, GitLab CI ]</span></div>
+          <div class="t-line t-out"><span class="t-key">infra:</span>     <span class="t-val">[ Docker, OpenShift ]</span></div>
+          <div class="t-line t-out"><span class="t-key">scripting:</span> <span class="t-val">[ Python, Bash/Shell ]</span></div>
+          <div class="t-line t-out"><span class="t-key">vcs:</span>       <span class="t-val">[ Git, GitHub, GitLab ]</span></div>
+          <br/>
+          <div class="t-line"><span class="t-prompt">❯ </span><span class="t-cmd">ping opportunities --count 1</span></div>
+          <div class="t-line t-out"><span class="t-ok">✔ Open to DevOps opportunities — 64 bytes reply</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats fade-up">
+      <div class="stat">
+        <div class="stat-num">2+</div>
+        <div class="stat-label">Years at Amdocs</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">5+</div>
+        <div class="stat-label">DevOps Projects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Technologies</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="section-eyebrow">What I Work With</div>
+    <h2 class="section-title">Core Skills</h2>
+    <p class="section-sub">From cloud infrastructure to automated pipelines — the tools I use to ship and scale reliable systems.</p>
+
+    <div class="skill-grid">
+      <div class="skill-card fade-up">
+        <div class="skill-icon">☁️</div>
+        <div class="skill-name">Cloud (AWS)</div>
+        <div style="color:var(--muted);font-size:13px">EC2 provisioning, S3 storage, IAM policies, User Data scripts, automated deployments.</div>
+        <div class="skill-tags"><span class="tag">EC2</span><span class="tag">S3</span><span class="tag">IAM</span><span class="tag">AMI</span></div>
+      </div>
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🔧</div>
+        <div class="skill-name">CI/CD Pipelines</div>
+        <div style="color:var(--muted);font-size:13px">Jenkins, GitLab CI — from Jenkinsfile authoring to multi-stage GitLab pipelines on OpenShift.</div>
+        <div class="skill-tags"><span class="tag">Jenkins</span><span class="tag">GitLab CI</span><span class="tag">Webhooks</span></div>
+      </div>
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🐧</div>
+        <div class="skill-name">Linux & Shell</div>
+        <div style="color:var(--muted);font-size:13px">Amazon Linux, Ubuntu, systemd, cron/cronie, bash scripting, process management.</div>
+        <div class="skill-tags"><span class="tag">Bash</span><span class="tag">cronie</span><span class="tag">systemd</span><span class="tag">Apache</span></div>
+      </div>
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🐳</div>
+        <div class="skill-name">Containers</div>
+        <div style="color:var(--muted);font-size:13px">Docker containerization, OpenShift deployments on Red Hat Developer Sandbox.</div>
+        <div class="skill-tags"><span class="tag">Docker</span><span class="tag">OpenShift</span><span class="tag">Red Hat</span></div>
+      </div>
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python</div>
+        <div style="color:var(--muted);font-size:13px">Infrastructure health monitors, automation scripts, API integrations, test frameworks.</div>
+        <div class="skill-tags"><span class="tag">Python 3</span><span class="tag">Requests</span><span class="tag">Boto3</span></div>
+      </div>
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🔀</div>
+        <div class="skill-name">Version Control</div>
+        <div style="color:var(--muted);font-size:13px">Git workflows, branching strategies, GitHub/GitLab repo management, CI triggers.</div>
+        <div class="skill-tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">GitLab</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="section-eyebrow">Built & Shipped</div>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">Real hands-on work — automated pipelines, cloud deployments, and infrastructure tooling.</p>
+
+    <div class="proj-grid">
+      <div class="proj-card fade-up">
+        <div class="proj-badge">AWS · Shell · CI/CD</div>
+        <div class="proj-title">EC2 Auto Deployment Pipeline</div>
+        <p class="proj-desc">GitHub-to-EC2 automated deployment using shell scripts, cron jobs (cronie on Amazon Linux 2023), Apache/httpd, and EC2 User Data. Pull-on-change workflow with zero manual SSH.</p>
+        <div class="skill-tags" style="margin-bottom:20px">
+          <span class="tag">EC2</span><span class="tag">Shell</span><span class="tag">cronie</span><span class="tag">Apache</span><span class="tag">GitHub</span>
+        </div>
+        <a href="https://github.com/Paraskhobragade/aws-ec2-auto-deployment" class="proj-link" target="_blank">github.com/Paraskhobragade/aws-ec2-auto-deployment →</a>
+      </div>
+
+      <div class="proj-card fade-up">
+        <div class="proj-badge">GitLab · OpenShift · Docker</div>
+        <div class="proj-title">GitLab CI/CD on OpenShift</div>
+        <p class="proj-desc">Multi-stage GitLab CI pipeline deploying a containerised app to Red Hat OpenShift (Developer Sandbox). Build → test → push → deploy stages with environment variables and rollback.</p>
+        <div class="skill-tags" style="margin-bottom:20px">
+          <span class="tag">GitLab CI</span><span class="tag">Docker</span><span class="tag">OpenShift</span><span class="tag">YAML</span>
+        </div>
+        <a href="#" class="proj-link">View Pipeline Config →</a>
+      </div>
+
+      <div class="proj-card fade-up">
+        <div class="proj-badge">Python · Monitoring</div>
+        <div class="proj-title">Infrastructure Health Monitor</div>
+        <p class="proj-desc">Python-based monitor that checks EC2 instance health, HTTP endpoints, disk/CPU/memory thresholds, and logs alerts. Designed as a lightweight observability layer for small deployments.</p>
+        <div class="skill-tags" style="margin-bottom:20px">
+          <span class="tag">Python</span><span class="tag">Boto3</span><span class="tag">Requests</span><span class="tag">Linux</span>
+        </div>
+        <a href="#" class="proj-link">View Source →</a>
+      </div>
+
+      <div class="proj-card fade-up">
+        <div class="proj-badge">Jenkins · Java · Linux</div>
+        <div class="proj-title">Jenkins Setup & Debugging</div>
+        <p class="proj-desc">Diagnosed and resolved Jenkins startup failure caused by Java 11 / Java 21 version mismatch on Amazon Linux 2023. Migrated to Amazon Corretto 21, restored service, hardened systemd config.</p>
+        <div class="skill-tags" style="margin-bottom:20px">
+          <span class="tag">Jenkins</span><span class="tag">Java 21</span><span class="tag">Corretto</span><span class="tag">systemd</span>
+        </div>
+        <a href="#" class="proj-link">Read Runbook →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="wrap">
+    <div class="section-eyebrow">Career</div>
+    <h2 class="section-title">Experience</h2>
+    <p class="section-sub">Professional history in QA/automation — the foundation for a move into DevOps engineering.</p>
+
+    <div class="exp-list">
+      <div class="exp-card fade-up">
+        <div>
+          <div class="exp-period">2023 – Present</div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin-top:4px">Pune, India</div>
+        </div>
+        <div>
+          <div class="exp-company">Amdocs</div>
+          <div class="exp-role">Experienced Engineer</div>
+          <ul class="exp-points">
+            <li>QA/Automation on ROGERS Canada telecom project — API and regression testing at scale.</li>
+            <li>Promoted from Associate to Experienced Engineer within the first engagement cycle.</li>
+            <li>Worked in SAFe Agile sprints, collaborating across cross-functional squads.</li>
+            <li>Building DevOps tooling in parallel: Jenkins pipelines, EC2 automation, monitoring scripts.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-card fade-up">
+        <div>
+          <div class="exp-period">2022 – 2023</div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin-top:4px">Pune, India</div>
+        </div>
+        <div>
+          <div class="exp-company">Amdocs</div>
+          <div class="exp-role">Associate Software Engineer</div>
+          <ul class="exp-points">
+            <li>Joined as Associate on ROGERS Canada project, onboarding into telecom OSS/BSS domain.</li>
+            <li>Developed automated test suites for microservices-based telecom platform.</li>
+            <li>Managed test environments, defect lifecycle, and CI test integrations with Git workflows.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact-box fade-up">
+      <h2>Let's Build Together</h2>
+      <p>I'm actively looking for DevOps Engineering roles. If you're building something and need someone who ships infrastructure like code — let's talk.</p>
+      <div class="contact-links">
+        <a href="mailto:paraskhobragade@gmail.com" class="btn-primary">📧 Send Email</a>
+        <a href="https://github.com/Paraskhobragade" class="btn-ghost" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/paraskhobragade" class="btn-ghost" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div>Built with ❤️ by <span>Paras Khobragade</span></div>
+  <div>Pune, Maharashtra · <span>2024</span></div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
